@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vet Green</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header-container">
+        <img src="./vet fak.avif" id="logo" alt="Vet Green Logo" />
+        <nav id="nav-buttons">
+            <button onclick="location.href='/'">Home</button>
+            <button onclick="location.href='/contact'">Contact Us</button>
+
+            <button onclick="location.href='/about'">About Us</button>
+        </nav>
+    </div>
+
+    <script>
+        window.addEventListener('load', () => {
+            const header = document.getElementById('header-container');
+            setTimeout(() => {
+                header.classList.add('animate');
+            }, 1000);
+
+            const logo = document.getElementById('logo');
+            logo.addEventListener('click', () => {
+                window.location.href = '/';
+            });
+        });
+    </script>
+    <!-- <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./vet farkha.jpeg" class="d-block w-100" alt="slide1">
+            </div>
+            <div class="carousel-item">
+                <img src="./vet1.jpeg" class="d-block w-100" alt="slide2">
+            </div>
+            <div class="carousel-item">
+                <img src="./vett1.jpeg" class="d-block w-100" alt="slide3">
+            </div>
+        </div> -->
+
+
+
+    <!-- Navigation Bar -->
+    <!-- <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./vetttt.avif" alt="Vetgreen Logo" height="100    ">
+            </a> -->
+
+    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+    <!-- <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#s2">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#s4">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#s5">Contact</a></li>
+        </ul> -->
+    <!-- <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+    </div>
+    </nav> -->
+
+    <!-- <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+        </div> -->
+    <!-- </nav> -->
+    <section class="searchbar">
+        <div class="content">
+            <h1 class="display-4 fw-bold">Welcome to <strong class="v1">Vet Green</strong></h1>
+            <p class="lead">there is alot of products...</p>
+
+            <form class="search-form">
+                <div class="input-group">
+
+                    </span>
+                    <!-- حقل البحث -->
+                    <input type="text" class="form-control" placeholder="Searsh about you want">
+                    <!-- زر البحث -->
+                    <button class="btn btn-success px-4" type="submit">
+            search&nbsp;<i class="fas fa-search"></i>
+          </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+
+
+    <!-- Carousel Placeholder -->
+    <div id="carouselExampleCaptions" class="carousel slide"></div>
+
+    <!-- Hero Section -->
+    <section class="s1">
+        <div class="page1">
+            <div class="f1">
+                <h2>Ordering and Discovery Services</h2>
+                <p>High Quality Veterinary Pharmaceuticals and Animal Health Care Products</p>
+                <input type="button" value="MORE">
+            </div>
+            <img src="./rrr.png" alt="Vet Green" class="circle-image">
+        </div>
+    </section>
+
+    <!-- Squares -->
+    <div class="sq">
+        <div><i class="fa-solid fa-sort-down"></i><br>Ordering</div>
+        <div style="background-color:#2cbe4e;color:white"><i class="fa-solid fa-house"></i><br>Services</div>
+        <div><i class="fa-brands fa-discourse"></i><br>Discovery</div>
+    </div>
+
+    <!-- About Section -->
+    <section id="s2">
+        <div class="page2">
+            <div class="f2">
+                <h2>About Us</h2>
+                <p><strong class="v2">VETGREEN</strong> is a leading veterinary pharmaceuticals and feed additives company that has been serving the industry since 2000. We provide innovative solutions to meet the evolving needs of farms and feed mills across
+                    Egypt.
+                </p>
+                <input type="button" value="Read More">
+            </div>
+            <img src="./3.avif.avif" alt="About Us" class="circle-image1">
+        </div>
+    </section>
+
+    <!-- Offer Section -->
+    <section id="s3" class="s3">
+        <div class="page3">
+            <img src="./photo 1.avif" alt="Our Offer" class="circle-image2">
+            <div class="f3">
+                <h2>We Offer Premium Veterinary Medicines</h2>
+                <p><strong class="v3">VET GREEN</strong> offers a variety of products including Antibiotics, Anticoccidia, Anthelmintics, Vaccine Stabilizers, Antifungals, Minerals, and Vitamins.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="s4">
+        <h2 class="text-center">Our Services</h2>
+        <div class="sr">
+            <div>
+                <h3>Medical Services for Pedestrians:</h3>
+                <p>These services involve emergency and long-term treatments for pedestrian injuries.</p>
+            </div>
+            <div>
+                <h3>Medical Services for Birds:</h3>
+                <p>Includes checkups, diagnostics, surgeries, and nutritional counseling for birds.</p>
+            </div>
+            <div>
+                <h3>Contact</h3>
+
+                <p>
+                    <i class="fab fa-facebook"></i> <a href="https://www.facebook.com/share/1Z1umxh2va/?mibextid=wwXIfr" target="_blank">Facebook</a><br>
+                    <i class="fas fa-phone"></i> +201002224798<br>
+                    <i class="fas fa-phone"></i> +20504905580
+                </p>
+
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <input type="button" class="b1" value="VIEW MORE">
+        </div>
+    </section>
+    <div id="app"></div>
+
+    <script>
+        const data = {
+            subtitle: "Veterinary Medicines",
+            title: "We provide you with all the necessary veterinary medicines.",
+            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+    purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor
+    rhoncus dolor purus non enim praesent elementum facilisis leo, vel
+    fringilla est ullamcorper eget nulla facilisi`,
+            stats: [{
+                number: "110+",
+                text: "Holiday Package"
+            }, {
+                number: "1+",
+                text: "Company"
+            }, {
+                number: "1+",
+                text: "Factory"
+            }, {
+                number: "40M+",
+                text: "We help you to find a special product"
+            }, ],
+        };
+
+        function createTravelersPoint(data) {
+            const container = document.createElement("div");
+            container.className = "vetgreen";
+
+            const subtitle = document.createElement("h4");
+            subtitle.className = "subtitle";
+            subtitle.textContent = data.subtitle;
+            container.appendChild(subtitle);
+
+            const title = document.createElement("h2");
+            title.className = "title";
+            title.textContent = data.title;
+            container.appendChild(title);
+
+            const description = document.createElement("p");
+            description.className = "description";
+            description.textContent = data.description;
+            container.appendChild(description);
+
+            const statsContainer = document.createElement("div");
+            statsContainer.className = "stats";
+
+            data.stats.forEach((item) => {
+                const statDiv = document.createElement("div");
+                statDiv.className = "stat-item";
+
+                const number = document.createElement("strong");
+                number.className = "stat-strong";
+                number.textContent = item.number;
+
+                const text = document.createElement("div");
+                text.textContent = item.text;
+
+                statDiv.appendChild(number);
+                statDiv.appendChild(text);
+                statsContainer.appendChild(statDiv);
+            });
+
+            container.appendChild(statsContainer);
+
+            return container;
+        }
+
+        const app = document.getElementById("app");
+
+        // نضيف النص أولًا (على الشمال)
+        app.appendChild(createTravelersPoint(data));
+
+        // نضيف الصورة بعد النص (على اليمين)
+        const img = document.createElement("img");
+        img.src = "https://sdmntprwestus2.oaiusercontent.com/files/00000000-5b24-61f8-a6cb-ac44857d0d64/raw?se=2025-07-16T13%3A57%3A44Z&sp=r&sv=2024-08-04&sr=b&scid=d57d3d43-f577-568a-b25e-d244a64f3db7&skoid=8e0fb8a9-6beb-4b32-9eda-253f61890767&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-16T07%3A33%3A29Z&ske=2025-07-17T07%3A33%3A29Z&sks=b&skv=2024-08-04&sig=Op8dS8B2nCF4a604hKUqBREIVDosRpHFVOvoRJvlfJ8%3D";
+        img.alt = "Veterinary Medicines";
+        img.className = "vet-image";
+        app.appendChild(img);
+    </script>
+    <!-- Contact & Map -->
+    <section id="s5">
+        <div class="form">
+            <h2>SIGN UP</h2>
+            <form>
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Phone Number">
+                <input type="email" placeholder="Email">
+                <input type="text" placeholder="Message">
+                <input type="button" class="b2" value="SEND">
+            </form>
+        </div>
+        <div id="map-loader" class="text-center my-4">
+            <div class="spinner-border text-success" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <p>Loading...</p>
+        </div>
+
+        <div id="map-container" style="display: none;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3429.821633296697!2d31.2535311!3d30.723414400000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f7c1da839040d9%3A0x656489d490d91fe9!2sVetgreen!5e0!3m2!1sen!2seg!4v1752605171323!5m2!1sen!2seg"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <script>
+            window.addEventListener("load", function() {
+                setTimeout(function() {
+                    document.getElementById("map-loader").style.display = "none";
+                    document.getElementById("map-container").style.display = "block";
+                }, 3000)
+            });
+        </script>
+
+    </section>
+
+    <!-- Centered Slogan -->
+    <div class="centered-text">Better Health, Better Productivity with VETGREEN</div>
+
+    <!-- Footer -->
+    <footer>
+        © developed by Eng.Omar Yasser
+
+        <footer style="background-color:#2cbe4e; padding:20px; text-align:center;">
+            <a href="https://www.facebook.com/share/1DFD8kZ2gY/?mibextid=wwXIfr" class="social-btn facebook" aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f" > </i></a>
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" class="social-btn google" aria-label="Google" target="_blank"><i class="fab fa-google" ></i></a>
+            <a href="https://www.instagram.com/omar.yasser_9?igsh=OHRsMWhmYWtwZmxw&utm_source=qr" class="social-btn instagram" aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/omar-yasser-332802308?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" class="social-btn linkedin" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </footer>
+
+
+    </footer>
+
+
+
+
+
+
+</body>
+
+</html>
